@@ -3,23 +3,25 @@ The TA-GAN trajectory prediction model synergizes the Transformer, Attention, an
 ## Download
 The IndoorNar-Trajectory dataset can be downloaded from:
 [Google Drive]
-## PyraBiNet++
-PyraBiNet is an innovative hybrid model optimized for lightweight semantic segmentation tasks. This model ingeniously merges the merits of Convolutional Neural Networks (CNNs) and Transformers.
-For details, see the PyraBiNet++ directory
+
 ## Installation
 
-Our project has been tested on torch=1.13 cuda=11.7 python=3.7.5
+Our project has been tested on torch=1.10.1 cuda=10.2 python=3.6
 
 ## Train
 
-You can use the following scripts for the train: T_V_en_base_with_F_4L_e4_BERT.py
+You can use the following scripts for the train: train_transformer_GAN.py 
+
+## Test
+
+You can use the following scripts for the test: transformer_test.py 
 
 ## Inference
 
-You can use the example demo_eval_iou.py to perform RGB images, depth images, and text descriptions. 
+You can use the following scripts for the inference: demo_transformer.py 
 
 ## Comparison Experiment
 
 See the experiment directory.
 ## Acknowledgement
-We appreciate the open-source of the following projects:     [Social GAN](https://github.com/agrimgupta92/sgan), and [ScanNet](https://github.com/ScanNet/ScanNet).
+We appreciate the open-source of the following project:     [Social GAN](https://github.com/agrimgupta92/sgan).
