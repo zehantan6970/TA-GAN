@@ -2,7 +2,7 @@
 The TA-GAN trajectory prediction model synergizes the Transformer, Attention, and GAN networks, adeptly overcoming the limitations inherent in previous trajectory prediction models, notably in managing intricate interactions and long-term dependencies. We further introduce a distinctive feature fusion strategy anchored on the Attention mechanism. This strategy effectively addresses the information loss associated with max-pooling and the oversight of interactions among dynamic obstacles. Recognizing the constraints posed by camera field-of-view limitations and the prohibitive costs of multi-line LiDAR in indoor trajectory datasets, we introduce the pioneering IndoorNar-Trajectory dataset: the first 2D LiDAR-based benchmark for indoor dynamic obstacle trajectory prediction.
 ## Download
 The IndoorNar-Trajectory dataset can be downloaded from:
-[Google Drive](https://drive.google.com/file/d/1aeTgIoqJHYbBHqBGuEobAv0SGU0oj7vo/view?usp=sharing)]
+[[Google Drive](https://drive.google.com/file/d/1aeTgIoqJHYbBHqBGuEobAv0SGU0oj7vo/view?usp=sharing)]
 
 ## Installation
 
